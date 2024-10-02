@@ -1,0 +1,227 @@
+:root{
+--Texto_escuro: #14183E;
+--Azul: #4372EB;
+--Cinza_claro: #9A9EA6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans';
+}
+
+header{
+display: flex;
+}
+
+header p{
+    right: 0;
+    margin-top: 0.9rem;
+    margin-left: 0.4rem;
+    font-size: 1.4rem;
+    }
+
+    div{
+        display: flex;
+        align-items: right !important;
+    }
+    
+
+    /* Inicio da tag MAIN */
+main{
+    display: flex;
+    text-align: center;
+}
+
+    #texts{
+        display: flex;
+        width: 38rem;
+        flex-direction: column;
+        margin-left: 12rem;
+        margin-top: 5rem;
+    }
+
+    #color-blue{
+        color: var(--Azul);
+    }
+
+    #texts h1{
+        font-size: 4.5rem;
+        color: var(--Texto_escuro);
+        font-weight: bold;
+    }
+
+    #texts p{
+        font-size: 1rem;
+        color: var(--Texto_escuro);
+        text-align: left;
+        width: 27rem;
+    }
+
+    #botoes{
+        width: 30rem;
+        display: flex;
+        height: 5rem;
+        margin-top: 36rem;
+        margin-left: -39rem;
+        left: 0 !important;
+    }
+
+    #botao{
+        background-color: var(--Azul);
+        color: #fff;
+        border: 0px solid #000;
+        width: 58rem !important;
+        height: 4rem;
+        border-radius: 1rem;
+        margin-right: 3rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    #texts img{
+        color: var(--Cinza_claro);
+        text-align: left;
+    }
+
+    #imgs{
+        width: 10rem;
+        text-align: center;
+        margin-left: 15rem;
+    }
+
+    #img-latam{
+        width: 14rem;
+        margin-right: 7rem;
+        height: 7rem;
+    }
+
+    #img-expedia{
+        margin-top: 1rem;
+        width: 14rem;
+        margin-right: 7rem;
+        height: 4rem;
+    }
+
+    #img-qantas{
+        margin-top: 1.5rem;
+        width: 10rem;
+        margin-right: 7rem;
+        height: 3rem;
+    }
+
+    #img-alitalia{
+        margin-top: 1rem;
+        width: 10rem;
+        height: 3rem;
+    }
+
+    #destinos{
+        margin-left: 3rem;
+    }
+
+    #destinos h3{
+        color: var(--Azul);
+        letter-spacing: 0.1rem;
+    }
+
+    #destinos h1{
+        color: var(--Texto_escuro);
+        font-size: 2.5rem;
+    }
+
+    #noronha{
+        width: 17rem;
+        height: 24rem;
+        z-index: 10;
+        border-radius: 1rem;
+        background-image: url(img/destino2.png);
+        background-size: cover;
+        display: flex;
+        margin-right: 4rem;
+    }
+
+    #atlas{
+        width: 17rem;
+        height: 24rem;
+        z-index: 10;
+        border-radius: 1rem;
+        background-image: url(img/destino1.png);
+        background-size: cover;
+        display: flex;
+        margin-right: 4rem;
+    }
+
+    #paraiso{
+        width: 17rem;
+        height: 24rem;
+        z-index: 10;
+        border-radius: 1rem;
+        background-image: url(img/destino5.png);
+        background-size: cover;
+        display: flex;
+        margin-right: 4rem;
+    }
+
+    #holanda{
+        width: 17rem;
+        height: 24rem;
+        z-index: 10;
+        border-radius: 1rem;
+        background-image: url(img/destino4.png);
+        background-size: cover;
+        display: flex;
+        margin-right: 4rem;
+    }
+
+    #seq-img{
+        margin-left: 3rem;
+        margin-top: 3rem;
+        justify-content: center;
+    }
+
+    .text{
+        width: 10rem;
+        margin-top: 19rem;
+        background-color: #d1d3d6ca;
+        border-radius: 0px 10px 10px 0px;
+        padding: 0.7rem;
+        font-weight: bold;
+    }
+
+    #span{
+        color: #000755;
+    }
+
+    #imgs-center{
+        margin-left: 4rem;
+        display: flex;
+        margin-top: 10rem;
+    }
+
+    #texto-imgs{
+        font-size: 1.4rem;
+        margin-top: -1rem;
+        letter-spacing: 2px;
+ color: var(--Azul);
+    }
+
+    #texto-imgs h1{
+        font-size: 1.4rem;
+        margin-top: 2rem;
+        margin-left: -8rem;
+        letter-spacing: 2px;
+ color: var(--Azul);
+    }
+
+    #imgs-center h1{
+        font-size: 2.6rem;
+        letter-spacing: 2px;
+        color: var(--Texto_escuro);
+        font-weight: bold;
+    }
+
+    #imgs-center img{
+        margin-left: 13rem;
+        margin-top: -12rem;
+    }
